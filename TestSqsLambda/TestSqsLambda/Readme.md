@@ -49,3 +49,18 @@ Deploy function to AWS Lambda
     cd "TestSqsLambda/src/TestSqsLambda"
     dotnet lambda deploy-function
 ```
+
+## Some AWS assets used by this project and other aws-dotnet-tutorial projects
+
+IAM
+- lambda-temp-exec-profile
+- lambda-temp-exec-role
+
+S3
+- temp-bucket1
+- temp-bucket2
+
+Lambda
+- temp-sqslambda
+- temp-s3lambda
+

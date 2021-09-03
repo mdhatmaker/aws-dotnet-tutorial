@@ -6,7 +6,7 @@
         "dotnet lambda help",
         "All the command line options for the Lambda command can be specified in this file."
     ],
-    "profile"     : "lambda-exec-profile",
+    "profile"     : "lambda-temp-exec-profile",
     "region"      : "us-west-2",
     "configuration" : "Release",
     "framework"     : "netcoreapp3.1",
@@ -14,9 +14,9 @@
     "function-memory-size" : 256,
     "function-timeout"     : 30,
     "function-handler"     : "TestSqsLambda::TestSqsLambda.Function::FunctionHandler",
-    "function-name"        : "test-sqslambda",
+    "function-name"        : "temp-sqslambda",
     "package-type"         : "Zip",
-    "function-role"        : "arn:aws:iam::121212121212:role/lambda-exec-role",
+    "function-role"        : "arn:aws:iam::121212121212:role/lambda-temp-exec-role",
     "tracing-mode"         : "PassThrough",
     "environment-variables" : "",
     "image-tag"             : ""
